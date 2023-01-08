@@ -57,21 +57,5 @@ def test_3():
     print(list(FlatIterator(list_of_lists_2)))
 
 
-# def test_dop():
-#     count = 0
-#     list_of_lists_2 = [
-#         # ['a', 'b', 'c'],
-#         # ['d', 'e', 'f', 'h', False],
-#         # [1, 2, None],
-#         [['a'], ['b', 'c']],
-#         ['d', 'e', [['f'], [[['ddd']]], 'h'], False],
-#         [1, 2, None, [[[[['!']]]]], []]
-#     ]
-#     for i in FlatIterator(list_of_lists_2):
-#         count += 1
-#         print(i)
-#     print(count)
-
-
 if __name__ == '__main__':
     test_3()
